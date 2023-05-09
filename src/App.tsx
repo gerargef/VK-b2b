@@ -1,10 +1,9 @@
-import './App.css'
+import React from "react";
+import "./App.css";
+import BookingForm from "./components/BookingForm";
 
-function App() {
-  return (
-    <>
-    </>
-  )
-}
+const App: React.FC = () => {
+  return <BookingForm />;
+};
 
-export default App
+export default App;
